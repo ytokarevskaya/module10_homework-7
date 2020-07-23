@@ -2,6 +2,8 @@
 
 let x;
 let min = Math.ceil(0);
-let max = Math.floor(100);
+let max = Math.floor(101);
 
 x = Math.floor(Math.random() * (max - min + 1) + min);
+
+// Не совсем верно, т.к. код выше будет возвращать рандомные числа в диапазоне от 0 до 99 (100 включено не будет). Выше исправила на верный вариант
